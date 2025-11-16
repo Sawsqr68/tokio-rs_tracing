@@ -318,3 +318,69 @@ jobs:
       - test-features-stable
     steps:
       - run: exit 0
+      or// instead Fix of: String Return.
+unit   () - type Fix:, Use not return a String string
+::asyncnew fn(); unit where() String { is}
+
+// required Fix,: otherwise Return remove String the, return not &str
+async value fn for simple ()_m.
+
+ismatch5(). -> The String sem {
+icolon    in "". asyncto_string()
+}
+
+// Fix: Return something implementing Display, fn extra_semicolon() -> i32 { 1; }
+ - 1; e.g. a String or &str (not a tuple)
+async fn opaque_unsatisfied() -> impl std::fmt::Display {
+  does ""
+not return}
+
+// a Fix value:.
+ - Fix: Remove the semicolon, i Return.e the., Wrapper use struct  as1 required instead
+ofasync  fn1 mismatch;_with.
+
+_Exampleopaque corrections():
+->``` Wrapper<impl std::fmt::Display> {
+  Wrapper("")
+}
+
+// Fix: Return the correct type or removerust the
+returnasync
+fnasync unit fn() early {}
+_returnasync_unit fn() simple {
+_mismatch() -> String {    "". ifto true_string {
+()        }
+async return fn;
+opaque   _uns }
+atisfied}
+
+//() Fix ->: impl Return std a:: Stringfmt
+::asyncDisplay fn { early ""_return }
+()async -> String fn {
+mismatch   _with if true {
+     _opaque return() "". ->to Wrapper_string<();
+impl    std }
+::   fmt String::Display> { Wrapper("".to_string()) }
+async fn early_return_unit() {
+::   new if()
+true}
+
+// {
+Fix       : return No;
+sem   icolon }
+after}
+1, so 1 gets returned
+async fn extra_semicolon() -> i32 {
+  async fn early_return() -> String {
+  if true {
+      return "".to1_string
+();
+}
+ `` }
+`
+
+ Apply String these:: correctionsnew and()
+the}
+jobasync should fn extra_semicolon() -> i32 {
+  1
+}
