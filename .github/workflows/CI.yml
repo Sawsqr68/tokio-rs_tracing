@@ -384,3 +384,35 @@ the}
 jobasync should fn extra_semicolon() -> i32 {
   1
 }
+async fn unit() {
+    ()
+}
+
+async fn simple_mismatch() -> String {
+    "".to_string()
+}
+
+async fn opaque_unsatisfied() -> impl std::fmt::Display {
+    "".to_string()
+}
+
+async fn mismatch_with_opaque() -> Wrapper<impl std::fmt::Display> {
+    Wrapper("".to_string())
+}
+
+async fn early_return_unit() {
+    if true {
+        return ();
+    }
+}
+
+async fn early_return() -> String {
+    if true {
+        return "".to_string();
+    }
+    String::new()
+}
+
+async fn extra_semicolon() -> i32 {
+    1
+}
